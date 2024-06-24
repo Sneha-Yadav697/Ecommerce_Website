@@ -1,5 +1,5 @@
 # Ecommerce_Website
-Its an Ecommerce_Website with Add-to-cart functionality and Login Functionality.
+Its an Ecommerce_Website with Add-to-cart Functionality and Login Functionality.
 * I added products details to json file and used it as an api.
 * I showed the products on page by using html template tag. And Showed those product templates details by clone the object data.  
 * I used browser local storage to store products data which were added to the cart.
