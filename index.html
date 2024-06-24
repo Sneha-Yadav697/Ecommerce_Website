@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>JS ecom website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="section-navbar">
+    <section class="top_txt">
+      <div class="head container">
+
+        <div class="blur-bg-overlay"></div>
+        <div class="sidebar-menu"><i class="fa-solid fa-bars"></i></div>
+      
+        <div class="head_txt">
+
+          <!-- sidebar ---------------------------------------------------------------------------------------------- -->
+          <div class="menu-sidebar container">
+
+            <div class="navbar-sidebar  nav-first">
+
+              <div class="navbar-sidebar  navbar-sidebar-list">
+                <i class="fa-solid fa-square-xmark"></i>
+
+                <ul>
+                  <li><a href="#">new in</a></li>
+                  <li><a href="#">Dress</a></li>
+                  <li><a href="#">tops | t-shirts</a></li>
+                  <li><a href="#">Knitwear</a></li>
+                  <li><a href="#">Outerwear | blazers</a></li>
+                  <li><a href="#">pants | jumpsuits</a></li>
+                  <li><a href="#">skirts | shorts</a></li>
+                  <li><a href="#">Sportswear | Swimwear</a></li>
+
+
+                </ul>
+
+
+              </div>
+            </div>
+          </div>
+          <!-- sidebar ---------------------------------------------------------------------------------------------- -->
+
+          <p>Free shipping, 30-day return or refund guarantee.</p>
+        </div>
+
+        <a href="# "><button class="login-btn">LOG IN</button></a>
+
+        <!-- login-popup--- start-->
+
+
+        <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+          <span class=" close-btn material-symbols-rounded"> <i class="fa-solid fa-xmark"></i></span>
+          <div class="form-box login">
+            <div class="form-details">
+              <!-- <h2>Shop now</h2> -->
+              <img src="./public/image/login_01.webp" alt="">
+
+
+            </div>
+            <div class="form-content">
+              <h2>LOGIN</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required>
+                  <label>Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="Password" required>
+                  <label>Password</label>
+                </div>
+                <a href="#" class="forget-pass">Forget password?</a>
+                <div class="Logged-in">
+                <button type="submit"> Log In</button>
+              </div>
+              </form>
+
+            </div>
+          </div>
+          <!-- login-popup--- end-->
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="index.html">
+          <div class="LOGO">EPiCA</div>
+
+        </a>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">products</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue" />
+            <i class="fa-solid fa-cart-shopping"> 0 </i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- start Home hero section -->
+  <main>
+
+    <section class="section-hero">
+
+      <div class="container grid ">
+        <h1 class="hero-heading">
+          Explore Latest Trends
+
+        </h1>
+        <p>Wear what makes you happy, no matter what anyone else says,<b> Dress for success.</b> </p>
+        <div class="hero-btn-explore">
+          <a href="products.html" class="btn">Explore NEW Products</a>
+
+        </div>
+
+  </section>
+  </main>
+
+  
+  <!-- start of product section -->
+  <section class="section-extra-product">
+    <div class="container grid grid-three--cols">
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get an extra 10% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./public/image/sale01.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get an extra 10% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./public/image/sale02.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get an extra 25% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./public/image/sale07.jpg" alt="">
+        </div>
+      </div>
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get an extra 50% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./public/image/sale04.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get an extra 70% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./public/image/sale05.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get an extra 55% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./public/image/sale06.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- end of product section -->
+
+
+  <!-- start policy -->
+  <section class="section-policy">
+    <div class="container grid grid-three--cols">
+      <div class="div-policy">
+        <div class="icons">
+          <i class="fa-solid fa-truck"></i>
+        </div>
+        <div class="div-policy-text">
+          <p>worldwide shipping</p>
+          <p>order above $100</p>
+        </div>
+      </div>
+
+      <div class="div-policy">
+        <div class="icons">
+          <i class="fa-solid fa-phone-volume"></i>
+        </div>
+        <div class="div-policy-text">
+          <p>Customer care service</p>
+          <p>24/7</p>
+        </div>
+      </div>
+
+      <div class="div-policy">
+        <div class="icons">
+          <i class="fa-sharp fa-solid fa-sack-dollar"></i>
+        </div>
+        <div class="div-policy-text">
+          <p>Instant refund on wallet</p>
+          <p>+points on every shop</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- end policy -->
+
+ 
+
+  <!-- start our product section -->
+  <section class="section-products container">
+    <div class="">
+      <h2 class="section-common-heading">
+        checkOut the store
+      </h2>
+    </div>
+
+    <section class="container ">
+      <div id="productContainer">
+
+
+      </div>
+    </section>
+  </section>
+
+
+  <!-- start product template section -->
+  <template id="productTemplate">
+    <div class="cards" id="cardValue">
+      <article class="information [card]">
+        <span class="category"></span>
+        <div class="imageContainer">
+          <img class="productImage" src="" alt="" />
+        </div>
+        <h2 class="productName"></h2>
+        <div class="productRating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p class="productDescription"></p>
+
+        <div class="productPriceElement">
+          <p class="productPrice"></p>
+          <p class="productActualPrice"></p>
+        </div>
+
+        <div class="productStockElement">
+          <p class="productProperty">Total stock available:</p>
+          <p class="productStock"></p>
+        </div>
+
+        <div class="productQuantityElement">
+          <p class="productProperty">Quantity(pieces)</p>
+          <div class="stockElement">
+            <button class="cartDecrement">-</button>
+            <p class="productQuantity">1</p>
+            <button class="cartIncrement">+</button>
+          </div>
+        </div>
+
+        <button class="add-to-cart-button">
+          <i class="fa-solid fa-cart-shopping"> </i>Add to Cart
+        </button>
+      </article>
+    </div>
+
+  </template>
+
+  <!-- end product template section -->
+
+
+
+  <!-- ========== Start Footer Section ========== -->
+  <footer class="section-footer">
+    <div class="footer-container container grid-three--cols">
+      <div class="content_1">
+
+        <div class="LOGO">EPiCA</div>
+
+
+        <p>Wear what makes you happy, no matter what <br>anyone else says,<b> Dress for success.</b> </p>
+        <img src="./public/image/insta.jpg" alt="card" />
+        <img src="./public/image/WhatsApp.png" alt="card" />
+        <img src="./public/image/Facebook.png" alt="card" />
+        <!-- <img src="./image/home02.png" alt="card" /> -->
+      </div>
+
+      <div class="content_2">
+        <h4>Shppoing</h4>
+        <a href="./contact.html">Contact us</a>
+        <a href="" target="_blank">Write reviews</a>
+        <a href="" target="_blank">Insta Store</a>
+        <a href="" target="_blank">WhatsApp Chat</a>
+      </div>
+      <div class="content_3">
+        <h4>Newsletter</h4>
+        <p>Be the first to know about new <br /> Arrive sales and promos</p>
+        <div class="f-mail">
+          <input type="email" placeholder="your mail" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ========== End Footer Section ========== -->
+<script type="module" src="main.js"></script>
+
+<script src="login.js"></script>
+<script type="module" src="sidebar.js"></script>
+
+</body>
+
+</html>

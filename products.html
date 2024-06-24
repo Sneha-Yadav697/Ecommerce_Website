@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>JS ecom website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="section-navbar">
+    <section class="top_txt">
+      <div class="head container">
+
+          
+         
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="index.html">
+          <div class="LOGO">EPiCA</div>
+
+        </a>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">products</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue" />
+            <i class="fa-solid fa-cart-shopping"> 0 </i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+
+  <!-- end policy -->
+
+  <!-- start our product section -->
+  <section class="section-products container">
+    <div class="">
+      <h2 class="section-common-heading">
+        checkOut the store
+      </h2>
+    </div>
+
+    <section class="container ">
+      <div id="productContainer">
+
+
+      </div>
+    </section>
+  </section>
+
+
+  <!-- start product template section -->
+  <template id="productTemplate">
+    <div class="cards" id="cardValue">
+      <article class="information [card]">
+        <span class="category"></span>
+        <div class="imageContainer">
+          <img class="productImage" src="" alt="" />
+        </div>
+        <h2 class="productName"></h2>
+        <div class="productRating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p class="productDescription"></p>
+
+        <div class="productPriceElement">
+          <p class="productPrice"></p>
+          <p class="productActualPrice"></p>
+        </div>
+
+        <div class="productStockElement">
+          <p class="productProperty">Total stock available:</p>
+          <p class="productStock"></p>
+        </div>
+
+        <div class="productQuantityElement">
+          <p class="productProperty">Quantity(pieces)</p>
+          <div class="stockElement">
+            <button class="cartIncrement">+</button>
+            <p class="productQuantity">1</p>
+            <button class="cartDecrement">-</button>
+          </div>
+        </div>
+
+        <button class="add-to-cart-button">
+          <i class="fa-solid fa-cart-shopping"> </i>Add to Cart
+        </button>
+      </article>
+    </div>
+
+  </template>
+
+
+
+<footer class="section-footer">
+    <script src="footer.js"></script>
+</footer>
+
+    
+
+
+<script type="module" src="main.js"></script>
+</body>
+
+</html>
